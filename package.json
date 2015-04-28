@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ephigabay/okcupidproxy/issues"
   },
-  "homepage": "https://github.com/ephigabay/okcupidproxy"
+  "homepage": "https://github.com/ephigabay/okcupidproxy",
+  "dependencies": {
+    "okcupidjs": "git://github.com/ephigabay/okcupidjs.git#get_messages"
+  }
 }
