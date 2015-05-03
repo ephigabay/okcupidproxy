@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ephigabay/okcupidproxy",
   "dependencies": {
-    "okcupidjs": "git://github.com/ephigabay/okcupidjs.git#get_messages"
+    "okcupidjs": "git://github.com/ephigabay/okcupidjs.git#get_messages",
+    "q": "^1.3.0"
   }
 }
