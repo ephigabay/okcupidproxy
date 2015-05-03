@@ -3,11 +3,12 @@
  */
 var OKCupid = require('okcupidjs');
 var Q = require('q');
+var privateConf = require('./config/private');
 
 var girl = new OKCupid();
 
 console.log("Welcome..");
-girl.login('coralasaurustron', 'OKq45y0P')
+girl.login(privateConf.username, privateConf.password)
     .then(function() {
         console.log("logged in");
         girl.loadAccessToken().then(function() {
